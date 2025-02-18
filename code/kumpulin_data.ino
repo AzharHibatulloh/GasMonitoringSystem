@@ -7,11 +7,10 @@
 #define MQ_135 15
 #define MQ_137 18
 
-//const char* ssid = "BANK SAMPAH";
-//const char* password = "AZARI1969";
-char ssid[] = "zhar";
-char password[] = "zuzuzuzu";
-const char* serverName = "https://script.google.com/macros/s/AKfycbyPOpfVUoe_Gr_5OL6SfCH0LYjZtPS0P7zmv30ZhSLKSTf6QCmD8bcqPchCy2gMviLv/exec";
+
+char ssid[] = "";
+char password[] = "";
+const char* serverName = "";
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 HTTPClient http;
