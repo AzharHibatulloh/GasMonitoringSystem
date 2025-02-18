@@ -1,0 +1,47 @@
+{
+    "metana": {
+        "n_estimators": 400,
+        "random_state": 42,
+        "feature_importances": [
+            0.043385993624895834,
+            0.009048080056631488,
+            0.27017009491327215,
+            0.3275958449847881,
+            0.20216532356648292,
+            0.14763466285392945
+        ],
+        "mse_train": 19389.445984996793,
+        "mse_test": 22016.491560037754,
+        "evaluation": "Model memiliki kualitas yang baik."
+    },
+    "amonia": {
+        "n_estimators": 400,
+        "random_state": 42,
+        "feature_importances": [
+            0.21963731822652013,
+            0.10155304054495279,
+            0.07633808882301432,
+            0.07311378414212931,
+            0.28220501126449776,
+            0.24715275699888575
+        ],
+        "mse_train": 7.007181108126918e-05,
+        "mse_test": 0.0007652144593962685,
+        "evaluation": "Model kemungkinan overfitting."
+    },
+    "karbon_dioksida": {
+        "n_estimators": 400,
+        "random_state": 42,
+        "feature_importances": [
+            0.01365082804391727,
+            0.004997709971329974,
+            0.0055721588245264434,
+            0.013620276427519437,
+            0.8461854325478911,
+            0.11597359418481577
+        ],
+        "mse_train": 0.6058828381292448,
+        "mse_test": 2.7886359323662764,
+        "evaluation": "Model kemungkinan overfitting."
+    }
+}
