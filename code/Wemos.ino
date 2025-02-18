@@ -2,10 +2,8 @@
 #include <FirebaseESP8266.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "BANK SAMPAH";
-const char* password = "AZARI1969";
-//const char* ssid = "zhar";
-//const char* password = "zuzuzuzu";
+const char* ssid = " ";
+const char* password = "";
 
 FirebaseData firebaseData;
 FirebaseConfig firebaseConfig;
@@ -25,8 +23,8 @@ void setup() {
     }
     Serial.println("Terhubung ke Wi-Fi.");
 
-    firebaseConfig.host = "skripsieh-ddebb-default-rtdb.firebaseio.com";
-    firebaseConfig.signer.tokens.legacy_token = "y5y9s8Zg4s9pWAeLSO6FlNmdjCQVxGaL9V6RDJXA";
+    firebaseConfig.host = "";
+    firebaseConfig.signer.tokens.legacy_token = "";
 
     Firebase.begin(&firebaseConfig, &firebaseAuth);
 
