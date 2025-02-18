@@ -4,10 +4,8 @@
 #include <ArduinoJson.h>
 #include <LiquidCrystal_I2C.h>
 
-const char* ssid = "BANK SAMPAH";
-const char* password = "AZARI1969";
-//const char* ssid = "zhar";
-//const char* password = "zuzuzuzu";
+const char* ssid = " ";
+const char* password = "";
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 const char* ntpServer = "pool.ntp.org";
